@@ -13,6 +13,7 @@ int get_max(int array[], int size) {
 	return max;
 
 	int get_min(int array[], int size) {
+
 		int min = array[0];
 
 		for (int i = 1; i < size; i++)
@@ -33,3 +34,4 @@ int get_max(int array[], int size) {
 		}
 		return sum / size;
 	}
+}
