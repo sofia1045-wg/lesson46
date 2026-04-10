@@ -16,10 +16,14 @@ int main() {
 
 	
     int max = get_max(array, size);
-    int max = get_max(array, size);
+    int min = get_max(array, size);
+	double arithmetical = calculate_arithmetical_mean(array, size);
+
 
 	print("\nMax value is " + to_string(max) + ".");
-	print("\nMin value is " + to_string(max) + ".");
+	print("\nMin value is " + to_string(min) + ".");
+	print("\nArithmetical mean is " + to_string(arithmetical) + ".");
+
 
 	return 0;
 }
