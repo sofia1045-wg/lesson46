@@ -8,9 +8,9 @@ int get_max(int array[], int size) {
 		if (max < array[i]) {
 			max = array[i];
 		}
-	}
 
-	return max;
+		return max;
+	}
 
 	int get_min(int array[], int size) {
 
