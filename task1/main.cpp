@@ -25,7 +25,9 @@ int main() {
 	print("\nArithmetical mean is " + to_string(arithmetical) + ".");
 	print("\nGeometrical mean is " + to_string(geometrical) + ".");
 
+	swap_extream_elements(array, size);
 
+	print("\n")
 
 	return 0;
 }
