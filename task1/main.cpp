@@ -18,11 +18,13 @@ int main() {
     int max = get_max(array, size);
     int min = get_max(array, size);
 	double arithmetical = calculate_arithmetical_mean(array, size);
-
+	double geometrical = calculate_geometrical_mean(array, size);
 
 	print("\nMax value is " + to_string(max) + ".");
 	print("\nMin value is " + to_string(min) + ".");
 	print("\nArithmetical mean is " + to_string(arithmetical) + ".");
+	print("\nGeometrical mean is " + to_string(geometrical) + ".");
+
 
 
 	return 0;

@@ -29,9 +29,21 @@ int get_max(int array[], int size) {
 	double calculate_arithmetical_mean(int array[], int size) {
 		double sum = 0;
 
-		for (int i = 0; i < size; i++) {
+		for (int i = 0; i < size; i++) 
+		{
 			sum += array[i];
 		}
-		return sum / size;
 	}
+		return sum / size;
+}
+
+double calculate_geometrical_mean(int array[], int size) {
+	double p = 1;
+
+	for (int i = 0; i < size; i++)
+	{
+		p *= array[i];
+	}
+
+	return pow(p, 1.0 / size);
 }
